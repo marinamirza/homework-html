@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form Example</title>
+</head>
+<body>
+    <table border="1" align="center">
+        <tr>
+            <td>
+                <h1> Create an account 
+
+                </h1>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+                <form action="thankyou.html">
+                    <fieldset>
+                    <label>
+                    What is your full name?
+                    <input type="text" required/>
+                    </label>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                    <label>
+                    What is your phone number?
+                    <input type="text" maxlength="12"/>
+                    </label>
+                    </fieldset>
+
+                    <br>
+                    <fieldset>
+                    <label>
+                    Your birthdate
+                    <input type="date"/>
+                    </label>
+                    </fieldset>
+
+                    <br>
+                    <label>
+                        Gender?
+                        <br>
+                        <input type="radio" name="g"> F <br>
+                        <input type="radio" name="g"> M <br>
+                        <input type="radio" name="g"> O <br>
+                    </label>
+                    <br>
+
+                    <label>
+                    Your country?
+                    <select>
+                        <datalist id="country">
+                            <optgroup label="romanian language">
+                        <option> Moldova </option>
+                        <option> Romania </option>
+                            </optgroup>
+                            <optgroup label="russian language">
+                        <option> Ucraine </option>
+                        <option> Russia </option>
+                            </optgroup>
+                        </datalist>
+                    </select> 
+                    </label>
+                    <br>
+                    <br>
+
+                    <label>
+                        Education levels?
+                        <br>
+                        <input type="checkbox"> Primary school <br>
+                        <input type="checkbox"> High school <br>
+                        <input type="checkbox"> University <br>
+                    </label>
+
+                    <br>
+
+                    <label>
+                        Write about yourself <small>(max 500 characters)</small>
+                        <br>
+                        <textarea> </textarea>
+                    </label>
+
+                    <br>
+
+                    <label>
+                    <input type="checkbox" required> I agree <a href="terms.html" target="_blank">terms and conditions</a>
+                    </label>
+                    <hr>
+                    <a href="thankyou.html"><button>CREATE</button> </a> 
+
+                </form>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
